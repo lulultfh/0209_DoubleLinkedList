@@ -42,5 +42,10 @@ void addNode()
         //insert the new node in the middle or at the end
         Node *current = START; //Step 1.a : start from the first node
         Node *previous = NULL; //step 1.b : previous node is NULL initially 
+
+        while (current != NULL && current->noMhs < newNode->noMhs)
+        {               //step 1.c: traverse the list to find the correct position
+
+        }
     }
 }
