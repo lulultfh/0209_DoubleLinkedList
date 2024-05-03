@@ -9,3 +9,5 @@ struct Node
     Node* next; //medan sambungan
     Node* prev; //medan sambungan
 };
+
+Node* START = NULL; //menandakan node masih kosong
