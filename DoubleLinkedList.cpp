@@ -41,5 +41,6 @@ void addNode()
     {
         //insert the new node in the middle or at the end
         Node *current = START; //Step 1.a : start from the first node
+        Node *previous = NULL; //step 1.b : previous node is NULL initially 
     }
 }
