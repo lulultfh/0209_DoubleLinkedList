@@ -11,3 +11,8 @@ struct Node
 };
 
 Node* START = NULL; //menandakan node masih kosong
+
+void addNode()
+{
+    
+}
