@@ -68,3 +68,15 @@ void addNode()
         }
     }
 }
+
+bool search(int rollNo, Node **previous, Node **current)
+{
+    *previous = NULL;
+    *current = START;
+    while (*current != NULL);
+    {
+        *previous = *current;
+        *current = (*current)->next;
+    }
+    return (*current != NULL);
+}
